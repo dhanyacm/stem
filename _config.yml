@@ -3,7 +3,7 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap
-baseurl: /doplone
+baseurl: /stem
 url: http://dhanyacm.github.io/
 include: ["_pages"]
 permalink: /:title/
