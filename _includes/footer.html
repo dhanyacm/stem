@@ -1,0 +1,56 @@
+<!-- copyright section -->
+<div class="copyright-w3-agileits">
+	<div class="container">
+		<p class="copyright">© 2017 STEM. All Rights Reserved <!-- | Design by <a href="https://writegenie.com/" target="_blank">Write Genie</a> --></p>
+	</div>
+</div>
+<!-- /copyright section -->
+<!-- back to top -->
+<a href="#0" class="cd-top">Top</a>
+<!-- /back to top -->	
+</body>
+<!-- js files -->
+<script src="{{site.baseurl}}/js/jquery.min.js"></script>
+<script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+<script src="{{site.baseurl}}/js/SmoothScroll.min.js"></script>
+<script src="{{site.baseurl}}/js/modernizr.min.js"></script> 
+<script src="{{site.baseurl}}/js/jquery.easing.min.js"></script>
+<script src="{{site.baseurl}}/js/grayscale.js"></script>
+<script src="{{site.baseurl}}/js/top.js"></script>
+<script>
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+<script src="{{site.baseurl}}/js/jarallax.js"></script>
+<script type="text/javascript">
+    /* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<!-- js for portfolio -->
+<script src='{{site.baseurl}}/js/TweenMax.min.js'></script>
+<script src="{{site.baseurl}}/js/portfolio.js"></script>
+<!-- /js for portfolio -->
+<!-- js for gallery -->
+<script src="{{site.baseurl}}/js/jQuery.lightninBox.js"></script>
+<script type="text/javascript">
+	$(".lightninBox").lightninBox();
+</script>
+<!-- /js for gallery -->
+<!-- js for banner -->
+<script src="{{site.baseurl}}/js/jquery.pogo-slider.min.js"></script>
+<script src="{{site.baseurl}}/js/main.js"></script>
+<!-- /js for banner -->
+<!-- /js files -->
+</html>
