@@ -26,6 +26,7 @@
 			</nav>
 		</div>
     </div>
+	{% if page.frontpage %}
 	<div class="pogoSlider" id="js-main-slider">
 		<div class="pogoSlider-slide" data-transition="barRevealDown" data-duration="1000"  style="background-image:url({{site.baseurl}}/images/banner1.jpg);">
 			<div class="pogoSlider-slide-element">
@@ -47,6 +48,9 @@
 				<h3>STEM - Engineering Programs</h3>
 			</div>
 		</div>
-	</div><!-- .pogoSlider -->	
+	</div><!-- .pogoSlider -->
+	{% else %}
+	
+	{% endif %}
 </section>
 <!-- /banner section -->
