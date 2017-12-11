@@ -7,3 +7,4 @@ baseurl: /stem
 url: http://dhanyacm.github.io/
 include: ["_pages"]
 permalink: /:title/
+permalink: /404.html
