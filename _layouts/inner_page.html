@@ -1,0 +1,17 @@
+{% include header.html %}
+{% include navbar.html %}
+
+<!-- breadcrumb -->
+	<div class="w3_breadcrumb">
+	<div class="breadcrumb-inner">	
+			<ul>
+				<li><a href="index.html">Home</a><i>-></i></li>
+				<li>{{ page.title }}</li>
+			</ul>
+		</div>
+	</div>
+<!-- //breadcrumb -->
+ 
+    {{ content }}
+
+{% include footer.html %}
