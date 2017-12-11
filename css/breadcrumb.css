@@ -1,0 +1,21 @@
+/*-- /w3_breadcrumb --*/
+.w3_breadcrumb{
+	padding:.5em 0;
+    background: #e9ecec;
+}
+.breadcrumb-inner {
+      padding: 0 5em;
+}
+.w3_breadcrumb ul li{
+	display:inline-block;
+	color:#0c0d0d;  
+	text-transform:uppercase;
+}
+.w3_breadcrumb ul li i {
+    padding: 0 1em;
+}
+.w3_breadcrumb ul li a{
+	color: #7A0000;
+    font-size: 0.9em;    
+}
+/*-- //w3_breadcrumb --*/
