@@ -38,67 +38,6 @@
 	}
 	
 }
-@media(max-width:800px){
-	.navbar-default .navbar-brand {
-		font-size: 29px;
-		left: 1em;
-	}
-	i.fa.fa-graduation-cap {
-		font-size: 25px;
-		left: 16px;
-		top: 27px;
-	}
-	.navbar-default .navbar-nav > li > a {
-		padding: 16px 15px 16px;
-		font-size: 11px;
-	}
-	.navbar-nav, .header-top {
-		padding-left: 15.5em;
-	}
-	.dropdown-menu > li > a {
-		font-size: 11px;
-	}
-	.view, .view .mask, .view .content {
-		width: 300px;
-	}
-	.view h5 {
-		margin: 3em 0 .5em;
-	}
-	.cl-effect-13 ul li a:hover::before, .cl-effect-13 ul li a:focus::before, ul.nav.navbar-nav li a.active::before {
-		color: #fff;
-		text-shadow: 8px 0 #fff, -8px 0 #fff;
-	}
-	.about-bott-right {
-		padding: 2em 1.7em;
-	}
-	.contact-w3ls:after {
-		border-width: 0px 802px 79px 0;
-	}
-}
-@media(max-width:768px){
-	.navbar-default .navbar-nav > li > a {
-		padding: 16px 14px 16px;
-		letter-spacing: 1.5px;
-	}
-	.contact-w3ls:after {
-		top: -63px;
-		border-width: 0px 826px 63px 0;
-	}
-	.contact-w3ls:before {
-		top: -53px;
-		border-width: 0 490px 47px 0;
-	}
-	.contact-w3ls {
-		margin-top: 3.5em;
-	}
-	ul.w3_address li {
-		margin-bottom: 25px;
-	}
-	.copy {
-		padding: 1.8em 3em 0;
-		margin-top: 0.5em;
-	}
-}
 @media(max-width:767px){
 
 	.inner-banner-w3l {
