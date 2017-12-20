@@ -1,3 +1,39 @@
+
+<!-- contact section -->
+<section class="contact-wthree jarallax" id="contact">
+	<div class="container">
+		<h3 class="text-center slideanim">Contact Us</h3>
+		<div class="col-lg-6 col-md-6 col-sm-6 contact-agile1">
+			<ul class="address-w3-agile">
+				<li class="slideanim"><i class="fa fa-map-marker" aria-hidden="true"></i><p class="extra">Byrathi Cross Road, Hennur Bagalur Road, Bangalore</p></li>
+				<li class="slideanim"><i class="fa fa-phone" aria-hidden="true"></i><p>+91-9379771215</p></li>
+				<li class="slideanim"><i class="fa fa-phone" aria-hidden="true"></i><p>+91-9880716223</p></li>
+				<li class="slideanim"><i class="fa fa-envelope-o" aria-hidden="true"></i><p><a href="mailto:name@example.com">name@example.com</a></p></li>
+			</ul>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 contact-agile2 slideanim">
+			<h4 class="slideanim">Get In Touch</h4>
+			<ul class="social-icons2">
+				<li class="slideanim"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li class="slideanim"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li class="slideanim"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li class="slideanim"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			</ul>
+			<h4>We Would Love To Hear From You!</h4>
+			<div class="subscribe" style="padding-top:10px;">			
+				<div class="form-group1 slideanim">
+					<a href="contact.html"><button class="btn btn-outline btn-lg"><i class="fa fa-comments-o" aria-hidden="true"></i>  Contact  >></button> </a>
+				</div>
+				<div class="clearfix"></div>				
+			</div>			
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+<!-- /contact section -->
+
+
+
 <!-- copyright section -->
 <div class="copyright-w3-agileits">
 	<div class="container">
@@ -52,5 +88,11 @@ $(window).scroll(function() {
 <script src="{{site.baseurl}}/js/jquery.pogo-slider.min.js"></script>
 <script src="{{site.baseurl}}/js/main.js"></script>
 <!-- /js for banner -->
+
+<!-- accordion.js for programmes -->
+ {% if page.programmes %}
+  <script type="text/javascript" src="{{site.baseurl}}/js/accordion.js"></script>
+  {% endif %}
+<!-- /accordion.js -->
 <!-- /js files -->
 </html>

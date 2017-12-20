@@ -1,0 +1,56 @@
+/*--inner pages--*/
+	.inner-banner-w3l{
+		background: url(../images/inner-bann.jpg) no-repeat 0px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+		-moz-background-size: cover;
+		min-height: 300px!important;
+	}
+
+@media(max-width:1366px){
+
+	.inner-banner-w3l {
+		min-height: 290px!important;
+	}
+	
+}
+
+@media(max-width:1080px){
+
+	.inner-banner-w3l {
+		min-height: 250px!important;
+	}
+}
+
+@media(max-width:991px){
+	
+	.inner-banner-w3l {
+		min-height: 230px!important;
+	}
+	
+}
+@media(max-width:900px){
+
+	.inner-banner-w3l {
+		min-height: 200px!important;
+	}
+	
+}
+@media(max-width:767px){
+
+	.inner-banner-w3l {
+		min-height: 175px!important;
+	}
+	
+}
+
+@media(max-width:600px){
+
+	.inner-banner-w3l {
+		min-height: 140px!important;
+	}
+}
+
+/*--responsive--*/

@@ -242,7 +242,7 @@ section.banner-w3ls .pogoSlider-slide-element h3 {
 /*-- services section --*/
 section.service-w3ls {
     padding: 100px 0;
-	background-color:#7ad1fe;
+	background-color:#3377cc;
 }
 section.service-w3ls h3.text-center {
     font-size: 40px;
@@ -367,9 +367,9 @@ section.about-agileits .about-wthree a {
     height: 45px;
     line-height: 40px;
     text-align: center;
-    color: #7ad1fe;
+    color: #3377cc;
 	text-decoration:none;
-    border: 2px solid #7ad1fe;
+    border: 2px solid #3377cc;
     margin: 30px auto 0;
 	border-radius:10px;
 	-webkit-border-radius:10px;
@@ -378,9 +378,9 @@ section.about-agileits .about-wthree a {
 	-ms-border-radius:10px;
 }
 section.about-agileits .about-wthree a:hover {
-	background-color:#7ad1fe;
+	background-color:#3377cc;
 	color:#fff;
-	border: 2px solid #7ad1fe;
+	border: 2px solid #3377cc;
 }
 .modal-open .modal {
 	background-color:rgba(0,0,0,0.7);
@@ -554,7 +554,7 @@ color: #fff !important;
 /*-- gallery section --*/
 section.gallery-agileits {
 	padding:100px 0;
-	background-color:#7ad1fe;
+	background-color:#3377cc;
 }
 section.gallery-agileits h3.text-center {
 	font-size: 40px;
@@ -801,7 +801,7 @@ section.testimonial-wthree h3.text-center {
 section.testimonial-wthree .carousel-inner>.item img.img-circle.img-responsive {
     margin: 0 auto;
     width: 170px;
-    border: 7px solid #7ad1fe;
+    border: 7px solid #3377cc;
 }
 section.testimonial-wthree h4 {
 	font-size:20px;
@@ -885,9 +885,9 @@ ul.address-w3-agile li:hover i.fa {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
-	background-color:#7ad1fe;
+	background-color:#3377cc;
 	color:#fff;
-	border:1px solid #7ad1fe;
+	border:1px solid #3377cc;
 }
 ul.address-w3-agile p {
 	font-size:15px;
@@ -1004,7 +1004,7 @@ section.contact-wthree button.btn.btn-outline.btn-lg:hover {
 /*-- copyright section --*/
 .copyright-w3-agileits {
 	padding: 10px 0;
-    background-color: #7ad1fe;
+    background-color: #3377cc;
 }
 .copyright-w3-agileits p.copyright {
     font-size: 16px;
