@@ -90,7 +90,7 @@ $(window).scroll(function() {
 <!-- /js for banner -->
 
 <!-- accordion.js for programmes -->
- {% if page.programmes %}
+ {% if page.programmes or page.about %}
   <script type="text/javascript" src="{{site.baseurl}}/js/accordion.js"></script>
   {% endif %}
 <!-- /accordion.js -->
