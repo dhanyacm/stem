@@ -1,6 +1,6 @@
 name: Stem
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-time-machine
 plugins:
   - jekyll-sitemap
 baseurl: /stem
