@@ -350,7 +350,7 @@ section.about-agileits .about-wthree h2.text-center {
 }
 section.about-agileits .about-wthree p {
 	font-size:16px;
-	font-weight:200;
+	font-weight:normal;
 	line-height:35px;
 	text-indent:75px;
 }
@@ -406,7 +406,7 @@ section.about-agileits .about-wthree a:hover {
 }
 .modal-body p {
 	font-size: 14px;
-    font-weight:200;
+    font-weight:normal;
     color: #595959;
     text-align: left;
     line-height: 30px;
@@ -639,7 +639,7 @@ section.portfolio-agileinfo h3.text-center {
 }
 .lightbox-item .person-info li p {
 	font-size:15px;
-	font-weight:200;
+	font-weight:normal;
 	color:#595959;
 	line-height:30px;
 }
@@ -1379,7 +1379,7 @@ section.contact-wthree h4 {
 }
 .modal-body p {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: normal;
 }
 .modal-header {
     padding: 5px;
@@ -1808,7 +1808,7 @@ p.extra {
 }
 .modal-body p {
     font-size: 13px;
-    font-weight: 300;
+    font-weight: normal;
 	padding:10px 0;
 } 
 }
