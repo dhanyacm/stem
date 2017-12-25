@@ -50,7 +50,7 @@ img {
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight:100;
-	color:#003665;
+	color:#595959;
 }
 /* Animations */
 [data-aos="example-anim1"] {
@@ -345,7 +345,7 @@ section.about-agileits .about-wthree h2.text-center {
     font-size: 40px;
     font-weight: normal;
 	font-family:  'PT Serif', serif;
-    color: #003665;
+    color: #595959;
     padding-bottom: 25px;
 }
 section.about-agileits .about-wthree p {
@@ -407,7 +407,7 @@ section.about-agileits .about-wthree a:hover {
 .modal-body p {
 	font-size: 14px;
     font-weight:200;
-    color: #003665;
+    color: #595959;
     text-align: left;
     line-height: 30px;
     padding: 10px 15px;
@@ -503,7 +503,7 @@ input.register {
 	margin:10px;
 }
 input.register:hover {
-    background-color: #003665;
+    background-color: #595959;
     color: #fff;
 }
 input.reset {
@@ -633,14 +633,14 @@ section.portfolio-agileinfo {
 section.portfolio-agileinfo h3.text-center {
 	font-size: 40px;
     font-weight: normal;
-    color:#003665;
+    color:#595959;
     font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 .lightbox-item .person-info li p {
 	font-size:15px;
 	font-weight:200;
-	color:#003665;
+	color:#595959;
 	line-height:30px;
 }
 ul.social-icons1 {
@@ -791,7 +791,7 @@ section.testimonial-wthree {
 section.testimonial-wthree h3.text-center {
 	font-size: 40px;
     font-weight: normal;
-    color:#003665;
+    color:#595959;
     font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
@@ -808,7 +808,7 @@ section.testimonial-wthree h4 {
 	font-weight:normal;
 	font-family:  'PT Serif', serif;
 	padding:20px 0;
-	color:#003665;
+	color:#595959;
 }
 section.testimonial-wthree p {
 	font-size: 15px;
@@ -991,7 +991,7 @@ section.contact-wthree button.btn.btn-outline.btn-lg {
     padding: 10px 45px;
 }
 section.contact-wthree button.btn.btn-outline.btn-lg:hover {
-	background-color:#003665;
+	background-color:#595959;
     color:#fff;
 }
 /*-- /contact section --*/
