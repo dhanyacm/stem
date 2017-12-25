@@ -411,8 +411,6 @@ section.about-agileits .about-wthree a:hover {
     text-align: left;
     line-height: 30px;
     padding: 10px 15px;
-	 max-height: calc(100vh - 210px);
-    overflow-y: auto;
 }
 .modal-footer {
 	background: #2b2b2b;
