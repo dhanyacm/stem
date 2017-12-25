@@ -1,3 +1,6 @@
+body{
+	padding:0;
+	margin:0;
 	background:#FFF;
 }
 body a{
@@ -137,7 +140,7 @@ html.demo-full-height .demo-table {
 .navbar-brand h1 {
 	font-size:40px;
 	color:#fff!important;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
 	text-transform:uppercase;
 	line-height:20px;
 }
@@ -231,7 +234,7 @@ section.banner-w3ls .pogoSlider-slide-element h3 {
     line-height: 100px;
     padding-bottom: 30px;
     text-transform: uppercase;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
 }
 /*-- /banner section --*/
 /*-- services section --*/
@@ -243,7 +246,7 @@ section.service-w3ls h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family: 'Limelight' , regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 .ch-grid {
@@ -272,7 +275,7 @@ section.service-w3ls h4 {
 	font-size:25px;
 	font-weight:normal;
 	color:#fff;
-	font-family: 'Limelight' , regular;
+	font-family:  'PT Serif', serif;
 	text-align:center;
 	padding:20px 0 15px;
 }
@@ -341,7 +344,7 @@ section.about-agileits .about-wthree {
 section.about-agileits .about-wthree h2.text-center {
     font-size: 40px;
     font-weight: normal;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
     color: #003665;
     padding-bottom: 25px;
 }
@@ -354,7 +357,7 @@ section.about-agileits .about-wthree p {
 section.about-agileits .about-wthree a {
 	font-size: 16px;
     font-weight: normal;
-	font-family: 'Limelight', regular;
+	font-family: 'PT Serif', serif;
 	background-color:transparent;
     display: block;
 	outline:none;
@@ -399,7 +402,7 @@ section.about-agileits .about-wthree a:hover {
     font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
 }
 .modal-body p {
 	font-size: 14px;
@@ -437,7 +440,7 @@ section.admission-w3-agileits h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family: 'Limelight', regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 input#firstname,input#middlename,input#lastname,input#address,input#city,input#state,input#zip,input#usrtel,input#email,input#age,select {
@@ -493,7 +496,7 @@ input.register {
 	-moz-border-radius:20px;
 	-o-border-radius:20px;
 	-ms-border-radius:20px;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
 	outline:none;
 	margin:10px;
 }
@@ -513,7 +516,7 @@ input.reset {
 	-moz-border-radius:20px;
 	-o-border-radius:20px;
 	-ms-border-radius:20px;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
 	outline:none;
 	margin:10px;
 }
@@ -555,7 +558,7 @@ section.gallery-agileits h3.text-center {
 	font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family: 'Limelight', regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 .col-lg-2.col-md-2.col-sm-2.gallery-agile1 {
@@ -629,7 +632,7 @@ section.portfolio-agileinfo h3.text-center {
 	font-size: 40px;
     font-weight: normal;
     color:#003665;
-    font-family: 'Limelight', regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 .lightbox-item .person-info li p {
@@ -735,7 +738,7 @@ section.team-agileinfo h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family: 'Limelight', regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 .col-lg-3.col-md-3.col-sm-6.team-w3l {
@@ -744,7 +747,7 @@ section.team-agileinfo h3.text-center {
 section.team-agileinfo h4 {
 	font-size:20px;
 	font-weight:normal;
-	font-family: 'Limelight', cursive;
+	font-family:  'PT Serif', serif;
 	padding:20px 0;
 	color:#fff;
 }
@@ -787,7 +790,7 @@ section.testimonial-wthree h3.text-center {
 	font-size: 40px;
     font-weight: normal;
     color:#003665;
-    font-family: 'Limelight' , regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 .carousel-inner>.item {
@@ -801,7 +804,7 @@ section.testimonial-wthree .carousel-inner>.item img.img-circle.img-responsive {
 section.testimonial-wthree h4 {
 	font-size:20px;
 	font-weight:normal;
-	font-family: 'Limelight' , regular;
+	font-family:  'PT Serif', serif;
 	padding:20px 0;
 	color:#003665;
 }
@@ -848,7 +851,7 @@ section.contact-wthree h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family: 'Limelight', regular;
+    font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
 ul.address-w3-agile {
@@ -903,7 +906,7 @@ section.contact-wthree h4 {
 	font-weight:normal;
 	color:#fff;
 	text-align:center;
-	font-family: 'Limelight', regular;
+	font-family:  'PT Serif', serif;
 }
 ul.social-icons2 {
     padding: 20px 0;
@@ -982,7 +985,7 @@ section.contact-wthree button.btn.btn-outline.btn-lg {
     background-color:#0b6797;
     color: #fff;
     font-size: 17px;
-	font-family: 'Limelight' , regular;
+	font-family:  'PT Serif', serif;
     padding: 10px 45px;
 }
 section.contact-wthree button.btn.btn-outline.btn-lg:hover {
