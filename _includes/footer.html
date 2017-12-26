@@ -88,9 +88,11 @@ $(window).scroll(function() {
 <script src="{{site.baseurl}}/js/jquery.pogo-slider.min.js"></script>
 <script src="{{site.baseurl}}/js/main.js"></script>
 <!-- /js for banner -->
-<!-- js for team -->
+<!-- js for team in about page -->
+{% if page.about %}
 <script src="{{site.baseurl}}/js/expansion-grid.js" charset="utf-8"></script>
 <script src="{{site.baseurl}}/js/all.js"></script>
+  {% endif %}
 <!-- js for team -->
 <!-- /js files -->
 </html>
