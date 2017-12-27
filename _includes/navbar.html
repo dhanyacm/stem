@@ -18,19 +18,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="index.html"><h1>STEM</h1></a>
-				</div>
-				{% if page.frontpage %}
-				<div id="navbar" class="navbar-collapse collapse menu--valentine">
-					<ul class="nav navbar-nav navbar-right cl-effect-5">
-						<li class="active"><a href="index.html" class="page-scroll"><span data-hover="Home">Home</span></a></li>
-						<li><a href="#service" class="page-scroll"><span data-hover="Programmes">Programmes</span></a></li>
-						<li><a href="#about" class="page-scroll"><span data-hover="About">About</span></a></li>
-						<li><a href="#team" class="page-scroll"><span data-hover="Advisory">Advisory</span></a></li>
-						<li><a href="#portfolio" class="page-scroll"><span data-hover="Portfolio">Portfolio</span></a></li> 
-						<li><a href="#contact" class="page-scroll"><span data-hover="Contact">Contact</span></a></li>
-					</ul>
-				</div>
-				{% else %}	
+				</div>				
 				<div id="navbar" class="navbar-collapse collapse menu--valentine">
 					<ul class="nav navbar-nav navbar-right cl-effect-5">
 						<li {% if page.frontpage %} class="active" {% endif %}><a href="index.html" class="page-scroll"><span data-hover="Home">Home</span></a></li>
@@ -41,7 +29,7 @@
 						<li {% if page.contact %} class="active" {% endif %}><a href="{{site.baseurl}}/contact.html" class="page-scroll"><span data-hover="Contact">Contact</span></a></li>
 					</ul>
 				</div>
-				{% endif %}
+			
 			</nav>
 		</div>
     </div>
