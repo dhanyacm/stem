@@ -15,9 +15,14 @@
 <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet" type="text/css" media="all" />
 <link href="{{site.baseurl}}/css/jQuery.lightninBox.css" rel="stylesheet" type="text/css" media="all" />
 <link href="{{site.baseurl}}/css/services.css" rel="stylesheet" type="text/css" media="all"/>
-
+{% if page.frontpage %}
 <link href="{{site.baseurl}}/css/pogo-slider.min.css" rel="stylesheet" type="text/css" media="all" />
   
+  {% else %}
+  <link href="{{site.baseurl}}/css/style-inner.css" rel="stylesheet" type="text/css" media="all" />
+ 
+  {% endif %}"
+    
 {% if page.about %}
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet" type="text/css" media="all" />
   <link href="{{site.baseurl}}/css/expansion-grid.css" rel="stylesheet" type="text/css" media="all" />
