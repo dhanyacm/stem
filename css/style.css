@@ -561,8 +561,11 @@ section.gallery-agileits h3.text-center {
     font-family:  'PT Serif', serif;
     padding-bottom: 50px;
 }
-.col-lg-2.col-md-2.col-sm-2.gallery-agile1 {
+.col-lg-4.col-md-4.col-sm-4.gallery-agile1 {
     margin-bottom: 30px;
+	
+    padding-bottom: 15px;
+    padding-bottom: 15px;	
 }
 img.img-responsive.big {
     margin-bottom: -99px;
@@ -1442,9 +1445,11 @@ img.img-responsive.big {
     margin-bottom: 20px;
     padding:0 24px;
 }
-.col-lg-2.col-md-2.col-sm-2.gallery-agile1 {
+.col-lg-4.col-md-4.col-sm-4.gallery-agile1 {
     margin-bottom: 20px;
     text-align: center;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 .col-lg-3.col-md-3.col-sm-6.team-w3l {
     text-align: center;
