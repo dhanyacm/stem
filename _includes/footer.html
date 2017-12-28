@@ -74,20 +74,12 @@ $(window).scroll(function() {
         imgHeight: 768
     })
 </script>
-<!-- js for portfolio -->
-<script src='{{site.baseurl}}/js/TweenMax.min.js'></script>
-<script src="{{site.baseurl}}/js/portfolio.js"></script>
-<!-- /js for portfolio -->
-<!-- js for gallery -->
-<script src="{{site.baseurl}}/js/jQuery.lightninBox.js"></script>
-<script type="text/javascript">
-	$(".lightninBox").lightninBox();
-</script>
-<!-- /js for gallery -->
+
 <!-- js for banner -->
 <script src="{{site.baseurl}}/js/jquery.pogo-slider.min.js"></script>
 <script src="{{site.baseurl}}/js/main.js"></script>
 <!-- /js for banner -->
+
 <!-- js for team in about page -->
 {% if page.about %}
 
@@ -101,5 +93,45 @@ $(window).scroll(function() {
 {% if page.programmes %}
 <script src="{{site.baseurl}}/js/tabs.js"></script>
  {% endif %}
+
+{% if page.gallery %}
+
+
+<!-- js for gallery -->
+<script src="{{site.baseurl}}/js/jQuery.lightninBox.js"></script>
+<script type="text/javascript">
+	$(".lightninBox").lightninBox();
+</script>
+<!-- /js for gallery -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            $('.filter').show('1000');
+        }
+        else
+        {
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+
+</script>
+
+ {% endif %}
+
 <!-- /js files -->
 </html>
