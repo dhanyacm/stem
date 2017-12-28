@@ -150,7 +150,7 @@ html.demo-full-height .demo-table {
 }
 .navbar-nav>li>a {
 	color:#fff!important;
-	font-size:16px;
+	font-size:18px;
 	font-weight:normal;
 	text-transform:uppercase;
 	position:relative;
@@ -280,7 +280,7 @@ section.service-w3ls h4 {
 	padding:20px 0 15px;
 }
 section.service-w3ls p.serv-w3 {
-	font-size:16px;
+	font-size:18px;
 	color:#fff;
 	line-height:30px;
 	text-align:center;
@@ -349,13 +349,13 @@ section.about-agileits .about-wthree h2.text-center {
     padding-bottom: 25px;
 }
 section.about-agileits .about-wthree p {
-	font-size:16px;
+	font-size:18px;
 	font-weight:normal;
 	line-height:35px;
 	text-indent:75px;
 }
 section.about-agileits .about-wthree a {
-	font-size: 16px;
+	font-size: 18px;
     font-weight: normal;
 	font-family: 'PT Serif', serif;
 	background-color:transparent;
@@ -1145,7 +1145,7 @@ section.about-agileits .about-wthree h2.text-center {
 	padding-bottom: 15px;
 }
 section.about-agileits .about-wthree p {
-    font-size: 15px;
+    font-size: 16px;
 }
 section.about-agileits .about-wthree a {
 	margin: 15px auto 0;
@@ -1161,7 +1161,7 @@ section.banner-w3ls .pogoSlider-slide-element {
     margin-top: 330px!important;
 }
 section.about-agileits .about-wthree p {
-    font-size: 14px;
+    font-size: 15px;
 	line-height:30px;
 }
 }
