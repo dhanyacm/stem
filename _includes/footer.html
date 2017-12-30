@@ -81,15 +81,36 @@ $(window).scroll(function() {
 <script src="{{site.baseurl}}/js/main.js"></script>
 <!-- /js for banner -->
 
-<!-- js for team in about page -->
-{% if page.about %}
 
+{% if page.about %}
+<!-- js for team in about page -->
 <script src="{{site.baseurl}}/js/jquery.fitvids.js" charset="utf-8"></script>
 <script src="{{site.baseurl}}/js/jquery.waypoints.min.js" charset="utf-8"></script> 
 <script src="{{site.baseurl}}/js/expansion-grid.js" charset="utf-8"></script>
 <script src="{{site.baseurl}}/js/all.js"></script>
-  {% endif %}
 <!-- js for team -->
+
+<!-- js for accordion -->
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<!-- /js for accordion -->
+
+  {% endif %}
+
 
 {% if page.programmes %}
 <script src="{{site.baseurl}}/js/tabs.js"></script>
