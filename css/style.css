@@ -48,9 +48,9 @@ img {
 }
 /*-- /reset code --*/
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight:100;
-	color:#595959;
+	color:#010101;
 }
 /* Animations */
 [data-aos="example-anim1"] {
@@ -140,7 +140,7 @@ html.demo-full-height .demo-table {
 .navbar-brand h1 {
 	font-size:40px;
 	color:#fff!important;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 	text-transform:uppercase;
 	line-height:20px;
 }
@@ -234,7 +234,7 @@ section.banner-w3ls .pogoSlider-slide-element h3 {
     line-height: 100px;
     padding-bottom: 30px;
     text-transform: uppercase;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 }
 /*-- /banner section --*/
 /*-- services section --*/
@@ -246,7 +246,7 @@ section.service-w3ls h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family:  'PT Serif', serif;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 .ch-grid {
@@ -275,7 +275,7 @@ section.service-w3ls h4 {
 	font-size:25px;
 	font-weight:normal;
 	color:#fff;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 	text-align:center;
 	padding:20px 0 15px;
 }
@@ -344,8 +344,8 @@ section.about-agileits .about-wthree {
 section.about-agileits .about-wthree h2.text-center {
     font-size: 40px;
     font-weight: normal;
-	font-family:  'PT Serif', serif;
-    color: #595959;
+	font-family:  'Open Sans', sans-serif;
+    color: #010101;
     padding-bottom: 25px;
 }
 section.about-agileits .about-wthree p {
@@ -357,7 +357,7 @@ section.about-agileits .about-wthree p {
 section.about-agileits .about-wthree a {
 	font-size: 18px;
     font-weight: normal;
-	font-family: 'PT Serif', serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color:transparent;
     display: block;
 	outline:none;
@@ -402,12 +402,12 @@ section.about-agileits .about-wthree a:hover {
     font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 }
 .modal-body p {
 	font-size: 14px;
     font-weight:normal;
-    color: #595959;
+    color: #010101;
     text-align: left;
     line-height: 30px;
     padding: 10px 15px;
@@ -440,7 +440,7 @@ section.admission-w3-agileits h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family:  'PT Serif', serif;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 input#firstname,input#middlename,input#lastname,input#address,input#city,input#state,input#zip,input#usrtel,input#email,input#age,select {
@@ -496,12 +496,12 @@ input.register {
 	-moz-border-radius:20px;
 	-o-border-radius:20px;
 	-ms-border-radius:20px;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 	outline:none;
 	margin:10px;
 }
 input.register:hover {
-    background-color: #595959;
+    background-color: #010101;
     color: #fff;
 }
 input.reset {
@@ -516,7 +516,7 @@ input.reset {
 	-moz-border-radius:20px;
 	-o-border-radius:20px;
 	-ms-border-radius:20px;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 	outline:none;
 	margin:10px;
 }
@@ -558,7 +558,7 @@ section.gallery-agileits h3.text-center {
 	font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family:  'PT Serif', serif;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 .col-lg-4.col-md-4.col-sm-4.gallery-agile1 {
@@ -634,14 +634,14 @@ section.portfolio-agileinfo {
 section.portfolio-agileinfo h3.text-center {
 	font-size: 40px;
     font-weight: normal;
-    color:#595959;
-    font-family:  'PT Serif', serif;
+    color:#010101;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 .lightbox-item .person-info li p {
 	font-size:15px;
 	font-weight:normal;
-	color:#595959;
+	color:#010101;
 	line-height:30px;
 }
 ul.social-icons1 {
@@ -741,7 +741,7 @@ section.team-agileinfo h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family:  'PT Serif', serif;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 .col-lg-3.col-md-3.col-sm-6.team-w3l {
@@ -750,7 +750,7 @@ section.team-agileinfo h3.text-center {
 section.team-agileinfo h4 {
 	font-size:20px;
 	font-weight:normal;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 	padding:20px 0;
 	color:#fff;
 }
@@ -792,8 +792,8 @@ section.testimonial-wthree {
 section.testimonial-wthree h3.text-center {
 	font-size: 40px;
     font-weight: normal;
-    color:#595959;
-    font-family:  'PT Serif', serif;
+    color:#010101;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 .carousel-inner>.item {
@@ -807,9 +807,9 @@ section.testimonial-wthree .carousel-inner>.item img.img-circle.img-responsive {
 section.testimonial-wthree h4 {
 	font-size:20px;
 	font-weight:normal;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 	padding:20px 0;
-	color:#595959;
+	color:#010101;
 }
 section.testimonial-wthree p {
 	font-size: 15px;
@@ -854,7 +854,7 @@ section.contact-wthree h3.text-center {
     font-size: 40px;
     font-weight: normal;
     color: #fff;
-    font-family:  'PT Serif', serif;
+    font-family:  'Open Sans', sans-serif;
     padding-bottom: 50px;
 }
 ul.address-w3-agile {
@@ -909,7 +909,7 @@ section.contact-wthree h4 {
 	font-weight:normal;
 	color:#fff;
 	text-align:center;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
 }
 ul.social-icons2 {
     padding: 20px 0;
@@ -980,7 +980,7 @@ section.contact-wthree input#email1 {
     margin: 15px auto;
     text-align: center;
     font-size: 16px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     height: 45px;
     border: 3px solid rgba(0, 168, 255, 0.55);
 }
@@ -988,11 +988,11 @@ section.contact-wthree button.btn.btn-outline.btn-lg {
     background-color:#0b6797;
     color: #fff;
     font-size: 17px;
-	font-family:  'PT Serif', serif;
+	font-family:  'Open Sans', sans-serif;
     padding: 10px 45px;
 }
 section.contact-wthree button.btn.btn-outline.btn-lg:hover {
-	background-color:#595959;
+	background-color:#010101;
     color:#fff;
 }
 /*-- /contact section --*/
