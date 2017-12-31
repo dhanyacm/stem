@@ -1,4 +1,4 @@
-body{
+body{form-control
 	padding:0;
 	margin:0;
 	background:#FFF;
@@ -469,7 +469,7 @@ select {
 }
 textarea.form-control {
 	width: 100%;
-     background-color: rgba(0, 0, 0, 0.63);
+     background-color: rgba(114, 165, 211, 0.63);
     color: #fff;
     font-size: 16px;
     font-weight: normal;
