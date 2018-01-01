@@ -446,7 +446,7 @@ section.admission-w3-agileits h3.text-center {
 }
 input#firstname,input#middlename,input#lastname,input#address,input#city,input#state,input#zip,input#usrtel,input#email,input#age,select {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(114, 165, 211, 0.63);
     color: #fff;
     font-size: 16px;
     font-weight: normal;
