@@ -3,7 +3,7 @@ markdown: kramdown
 theme: jekyll-theme-time-machine
 plugins:
   - jekyll-sitemap
-baseurl: 
+baseurl: stem
 url: http://dhanyacm.github.io/
 include: ["_pages"]
 permalink: /:title/
