@@ -279,6 +279,15 @@ section.service-w3ls h4 {
 	text-align:center;
 	padding:20px 0 15px;
 }
+section.service-w3ls h5 {
+	font-size:22px;
+	font-weight:normal;
+	color:#fff;
+	font-family:  'Open Sans', sans-serif;
+	text-align:center;
+	padding:20px 0 15px;
+}
+
 section.service-w3ls p.serv-w3 {
 	font-size:16px;
 	color:#fff;
